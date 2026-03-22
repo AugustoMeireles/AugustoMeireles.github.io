@@ -63,3 +63,25 @@
   text-align: center;
   margin: 5px auto;
 }
+
+/* =========================
+   MENU SUPERIOR
+   ========================= */
+
+.top-menu {
+  background: #00adb5;   /* cor principal */
+  padding: 15px 30px;
+  display: flex;
+  gap: 25px;
+}
+
+.top-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.top-menu a:hover {
+  opacity: 0.8;
+}

@@ -11,18 +11,19 @@
    ========================= */
 
 .top-menu {
-  background: #222;
-  padding: 12px 20px;
-  text-align: left;
+  background: #00adb5;   /* cor principal */
+  padding: 15px 30px;
+  display: flex;
+  gap: 25px;
 }
 
 .top-menu a {
   color: white;
   text-decoration: none;
-  margin-right: 20px;
+  font-size: 16px;
   font-weight: 500;
 }
 
 .top-menu a:hover {
-  color: #00adb5;
+  opacity: 0.8;
 }
